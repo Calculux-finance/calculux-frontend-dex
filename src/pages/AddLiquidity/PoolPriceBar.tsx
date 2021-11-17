@@ -1,6 +1,6 @@
 import React from 'react'
-import { Currency, Percent, Price } from '@pantherswap-libs/sdk'
-import { Text } from '@pantherswap-libs/uikit'
+import { Currency, Percent, Price } from '@wakandaswap-libs/sdk'
+import { Text } from '@wakandaswap-libs/uikit'
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'
 import { ONE_BIPS } from '../../constants'

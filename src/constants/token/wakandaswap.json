@@ -1,0 +1,95 @@
+{
+  "name": "wakandaswap",
+  "timestamp": "2020-08-25T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/BUSD.png"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "WakandaSwap Token",
+      "symbol": "WAKANDA",
+      "address": "0x5344c20fd242545f31723689662ac12b9556fc3d",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "/images/coins/wakanda.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/BUSD.png"
+    },
+    {
+      "name": "Ethereum Token",
+      "symbol": "ETH",
+      "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/ETH.png"
+    },
+    {
+      "name": "BTCB Token",
+      "symbol": "BTCB",
+      "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC-icon.png"
+    },
+  
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/USDT-icon.png"
+    },
+   
+    {
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/DAI-icon.png"
+    },
+    
+    {
+      "name": "Polkadot Token",
+      "symbol": "DOT",
+      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+      "chainId": 56,
+      "decimals": 18
+    },
+  
+    {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+      "chainId": 56,
+      "decimals": 18
+    }
+  ]
+}

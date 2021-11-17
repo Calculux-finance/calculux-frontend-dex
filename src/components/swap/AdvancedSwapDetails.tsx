@@ -1,6 +1,6 @@
 import React from 'react'
-import { Trade, TradeType } from '@pantherswap-libs/sdk'
-import { Card, CardBody, Text } from '@pantherswap-libs/uikit'
+import { Trade, TradeType } from '@wakandaswap-libs/sdk'
+import { Card, CardBody, Text } from '@wakandaswap-libs/uikit'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from '../../utils/prices'
@@ -45,7 +45,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
         <RowBetween>
           <RowFixed>
             <Text fontSize="14px">Liquidity Provider Fee</Text>
-            <QuestionHelper text="For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the PantherSwap treasury." />
+            <QuestionHelper text="For each trade a 0.2% fee is paid. 0.17% goes to liquidity providers and 0.03% goes to the WakandaSwap treasury." />
           </RowFixed>
           <Text fontSize="14px">
             {realizedLPFee ? `${realizedLPFee.toSignificant(4)} ${trade.inputAmount.currency.symbol}` : '-'}

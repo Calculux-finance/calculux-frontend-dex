@@ -1,13 +1,13 @@
 {
-  "name": "pantherswap-frontend-dex",
-  "description": "PantherSwap Dex Interface",
+  "name": "wakandaswap-frontend-dex",
+  "description": "WakandaSwap Dex Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@pantherswap-libs/sdk": "^1.0.0",
-    "@pantherswap-libs/uikit": "^0.1.1",
+    "@wakandaswap-libs/sdk": "1.0.0",
+    "@wakandaswap-libs/uikit": "0.1.0",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
@@ -80,7 +80,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp .htaccess ./build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",

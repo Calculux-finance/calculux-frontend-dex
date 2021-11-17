@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Button, HelpIcon, Link } from '@pantherswap-libs/uikit'
+import { Text, Button, HelpIcon, Link } from '@wakandaswap-libs/uikit'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -19,15 +19,16 @@ const Wrapper = styled.div`
 `
 
 const VersionBar = () => {
+  return <></>
   return (
     <Wrapper>
       <Text bold mr="16px">
-        You are using PantherSwap AMM exchange.
+        You are using WakandaSwap AMM exchange.
       </Text>
       <Button
         variant="subtle"
         as={Link}
-        href="https://docs.pantherswap.com/amm-launch"
+        href="https://docs.wakandaswap.com/amm-launch"
         endIcon={<HelpIcon color="white" />}
         size="sm"
         ml="16px"

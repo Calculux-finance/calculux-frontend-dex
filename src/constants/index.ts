@@ -1,6 +1,6 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pantherswap-libs/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@wakandaswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0x24f7C33ae5f77e2A9ECeed7EA858B4ca2fa1B7eC'
+export const ROUTER_ADDRESS = '0x832A621ebf4Ab926ed9b3a1C91E6ff13f5a2Df5c'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -52,7 +52,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x1f546ad641b56b86fd9dceac473d1c7a357276b7', 18, 'PANTHER', 'PantherSwap Token'),
+      new Token(ChainId.MAINNET, '0x5344c20fd242545f31723689662ac12b9556fc3d', 9, 'WAKANDA', 'WakandaSwap Token'),
       new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
     ],
     [BUSD, USDT],

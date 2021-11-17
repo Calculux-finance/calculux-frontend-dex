@@ -1,4 +1,4 @@
-# Contributing to the Panther ecosystem
+# Contributing to the Wakanda ecosystem
 
 Thanks for taking the time to contribute !
 
