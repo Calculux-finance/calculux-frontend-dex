@@ -4755,12 +4755,12 @@
     "@uniswap/lib" "1.1.1"
     "@uniswap/v2-core" "1.0.0"
 
-"@wakandaswap-libs/sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/sdk/-/sdk-1.0.0.tgz#b9d86d2558eed06b00f49caf228dedeb0f509100"
-  integrity sha512-xH/l2RxxiWBHUoBOSI3Xv8Q+gOREUUhqvDn+zPv4aUBNlBL4rN26ayeux5RJujZGw+eZ0CJ6Ar2H3BJ76KfSIQ==
+"@wakandaswap-libs/sdk@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/sdk/-/sdk-1.0.1.tgz#988cbf0eea3266d7050ba1ec8f31891dcf8b83bb"
+  integrity sha512-DSK1aXTnO9A5i/icIumDrAq+yL+YIIKi3NduYmhGk6VXi3wW4WqZwT2jzle8Vy2o/dT/bgiUDSWziNzPp9Q5Hg==
   dependencies:
-    "@wakandaswap-libs/wakanda-swap-core" "file:../../../Library/Caches/Yarn/v6/npm-@wakandaswap-libs-sdk-1.0.0-b9d86d2558eed06b00f49caf228dedeb0f509100-integrity/node_modules/@wakandaswap-libs/wakanda-swap-core"
+    "@wakandaswap-libs/wakanda-swap-core" "^0.1.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -4779,8 +4779,10 @@
     react-transition-group "^4.4.1"
     styled-system "^5.1.5"
 
-"@wakandaswap-libs/wakanda-swap-core@file:../wakanda-swap-core":
+"@wakandaswap-libs/wakanda-swap-core@^0.1.0":
   version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/wakanda-swap-core/-/wakanda-swap-core-0.1.0.tgz#e0d3c04c8831071db7a8363d77d6dcdbc494e85d"
+  integrity sha512-XNfCVeq+7MEqz8y5LXxwJ3gVJszMOj1kBaoD203gxjzLwGudASwrsNsVT9LFOzx6LJiCTVSpm1nec//zfHmEAw==
   dependencies:
     truffle "^5.1.41"
     truffle-flattener "^1.4.4"

@@ -6,8 +6,6 @@
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
-    "@wakandaswap-libs/sdk": "1.0.0",
-    "@wakandaswap-libs/uikit": "0.1.0",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
     "@reach/portal": "^0.10.3",
@@ -28,6 +26,8 @@
     "@uniswap/token-lists": "^1.0.0-beta.16",
     "@uniswap/v2-core": "1.0.0",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@wakandaswap-libs/sdk": "^1.0.1",
+    "@wakandaswap-libs/uikit": "0.1.0",
     "@web3-react/core": "^6.0.9",
     "@web3-react/fortmatic-connector": "^6.0.9",
     "@web3-react/injected-connector": "^6.0.7",
