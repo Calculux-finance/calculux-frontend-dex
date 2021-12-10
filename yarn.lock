@@ -4768,10 +4768,10 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@wakandaswap-libs/uikit@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.0.tgz#7a25fde37c13f0809ac644e6cc89428e611a24fa"
-  integrity sha512-pySGjoyyRUgt6LZ+3Y7uZ2kbktgycQTGh9b8X7zkJc0cC37+sFYB91M1QrgQnXRiKzC4BkLlLqCq2zrHqr2hYg==
+"@wakandaswap-libs/uikit@^0.1.0":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.2.tgz#525475f84bcc9aca676ccde7545b621f5be5a499"
+  integrity sha512-d+8CuMqQjnEwoPJnNIz1TP2wP1NulN0yQbLOq0bVl/qEc7gSK8/Gr8fUyVCEYgbXhQ5xe7qSemeKrNv5rC4ZBg==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
