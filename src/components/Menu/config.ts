@@ -33,12 +33,12 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://wakandaswap.net/lottery',
+    href: 'https://wakandaswap.finance/lottery',
   },
   {
     label: 'IWO',
     icon: 'PoolIcon',
-    href: 'https://wakandaswap.net/iwo',
+    href: 'https://wakandaswap.finance/iwo',
   },
   // {
   //   label: 'NFT',
@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        href: 'https://info.wakandaswap.finance/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
       },
       {
         label: 'CoinGecko',
