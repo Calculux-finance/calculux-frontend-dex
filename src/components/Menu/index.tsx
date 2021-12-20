@@ -41,7 +41,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink={`https://bscscan.com/token/${wakandaAddress}`}
+      cakePriceLink="https://www.coingecko.com/en/coins/wakanda-inu"
       /* profile={profile} */
       {...props}
     />
