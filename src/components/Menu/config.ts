@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://wakandaswap.finance',
   },
   {
     label: 'Trade',
@@ -50,7 +50,7 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
+        label: 'WakandaSwap',
         href: 'https://info.wakandaswap.finance/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
       },
       {
