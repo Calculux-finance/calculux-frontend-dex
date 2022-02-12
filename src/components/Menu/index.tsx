@@ -15,10 +15,10 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
 
-  const wakandaAddress = '0x5344C20FD242545F31723689662AC12b9556fC3d'
+  const calculuxAddress = '0x587b178d0306586efcf3d3afa7a6953fab150aff'
   const cakePriceUsd =
-    priceData && priceData.data && priceData.data[wakandaAddress]
-      ? Number(priceData.data[wakandaAddress].price)
+    priceData && priceData.data && priceData.data[calculuxAddress]
+      ? Number(priceData.data[calculuxAddress].price)
       : Number(0)
   // const profile = useGetLocalProfile()
 
@@ -44,7 +44,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink="https://www.coingecko.com/en/coins/wakanda-inu"
+      cakePriceLink="https://www.coingecko.com/en/coins/calculux-finance"
       /* profile={profile} */
       {...props}
     />

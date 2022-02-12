@@ -23,12 +23,12 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        You are using WakandaSwap AMM exchange.
+        You are using CalculuxSwap AMM exchange.
       </Text>
       <Button
         variant="subtle"
         as={Link}
-        href="https://docs.wakandaswap.com/amm-launch"
+        href="https://docs.calculux.finance/amm-launch"
         endIcon={<HelpIcon color="white" />}
         size="sm"
         ml="16px"
