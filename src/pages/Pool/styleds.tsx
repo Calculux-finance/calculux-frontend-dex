@@ -1,4 +1,4 @@
-import { Text } from '@wakandaswap-libs/uikit'
+import { Text } from '@calculux-libs/uikit'
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`

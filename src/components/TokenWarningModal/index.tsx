@@ -1,6 +1,6 @@
-import { Token } from '@wakandaswap-libs/sdk'
+import { Token } from '@calculux-libs/sdk'
 import { transparentize } from 'polished'
-import { Button, Text } from '@wakandaswap-libs/uikit'
+import { Button, Text } from '@calculux-libs/uikit'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { AlertTriangle } from 'react-feather'

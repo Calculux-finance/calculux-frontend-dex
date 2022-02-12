@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@wakandaswap-libs/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@calculux-libs/sdk'
 
 export const ROUTER_ADDRESS = '0x832A621ebf4Ab926ed9b3a1C91E6ff13f5a2Df5c'
 

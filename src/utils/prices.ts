@@ -1,5 +1,10 @@
-import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@wakandaswap-libs/sdk'
-import { BLOCKED_PRICE_IMPACT_NON_EXPERT , ALLOWED_PRICE_IMPACT_HIGH, ALLOWED_PRICE_IMPACT_LOW, ALLOWED_PRICE_IMPACT_MEDIUM } from '../constants'
+import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@calculux-libs/sdk'
+import {
+  BLOCKED_PRICE_IMPACT_NON_EXPERT,
+  ALLOWED_PRICE_IMPACT_HIGH,
+  ALLOWED_PRICE_IMPACT_LOW,
+  ALLOWED_PRICE_IMPACT_MEDIUM,
+} from '../constants'
 
 import { Field } from '../state/swap/actions'
 import { basisPointsToPercent } from './index'
@@ -50,7 +55,7 @@ export function computeSlippageAdjustedAmounts(
   const pct = basisPointsToPercent(allowedSlippage)
   return {
     [Field.INPUT]: trade?.maximumAmountIn(pct),
-    [Field.OUTPUT]: trade?.minimumAmountOut(pct)
+    [Field.OUTPUT]: trade?.minimumAmountOut(pct),
   }
 }
 

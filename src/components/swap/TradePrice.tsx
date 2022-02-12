@@ -1,6 +1,6 @@
 import React from 'react'
-import { Price } from '@wakandaswap-libs/sdk'
-import { SyncAltIcon, Text } from '@wakandaswap-libs/uikit'
+import { Price } from '@calculux-libs/sdk'
+import { SyncAltIcon, Text } from '@calculux-libs/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 
 interface TradePriceProps {

@@ -1,4 +1,4 @@
-# Contributing to the Wakanda ecosystem
+# Contributing to the Calculux ecosystem
 
 Thanks for taking the time to contribute !
 

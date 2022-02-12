@@ -1,6 +1,6 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@wakandaswap-libs/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@calculux-libs/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
-import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@wakandaswap-libs/uikit'
+import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@calculux-libs/uikit'
 import CardNav from 'components/CardNav'
 import { LightCard } from 'components/Card'
 import { AutoColumn, ColumnCenter } from 'components/Column'
@@ -20,7 +20,7 @@ import { Dots } from '../Pool/styleds'
 
 enum Fields {
   TOKEN0 = 0,
-  TOKEN1 = 1
+  TOKEN1 = 1,
 }
 
 export default function PoolFinder() {

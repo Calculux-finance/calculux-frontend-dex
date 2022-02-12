@@ -1,6 +1,6 @@
 import React from 'react'
-import { Trade, TradeType } from '@wakandaswap-libs/sdk'
-import { Card, CardBody, Text } from '@wakandaswap-libs/uikit'
+import { Trade, TradeType } from '@calculux-libs/sdk'
+import { Card, CardBody, Text } from '@calculux-libs/uikit'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from '../../utils/prices'

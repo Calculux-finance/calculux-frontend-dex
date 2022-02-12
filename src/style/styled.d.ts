@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import { WakandaTheme } from '@wakandaswap-libs/uikit/dist/theme'
+import { WakandaTheme } from '@calculux-libs/uikit/dist/theme'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */

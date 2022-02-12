@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem } from '@wakandaswap-libs/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@calculux-libs/uikit'
 import TranslatedText from '../TranslatedText'
 
 const StyledNav = styled.div`
@@ -20,7 +20,7 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
       <ButtonMenuItem
         id="pool-nav-link"
         as="a"
-        href="https://www.binance.org/en/bridge?utm_source=WakandaSwap"
+        href="https://www.binance.org/en/bridge?utm_source=CalculuxSwap"
         target="_blank"
         rel="noreferrer noopener"
       >

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text } from '@wakandaswap-libs/uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@wakandaswap-libs/sdk'
+import { Text } from '@calculux-libs/uikit'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@calculux-libs/sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'
@@ -28,7 +28,7 @@ const BaseWrapper = styled.div<{ disable?: boolean }>`
 export default function CommonBases({
   chainId,
   onSelect,
-  selectedCurrency
+  selectedCurrency,
 }: {
   chainId?: ChainId
   selectedCurrency?: Currency | null

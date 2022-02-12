@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
-import { Pair } from '@wakandaswap-libs/sdk'
-import { Button, CardBody, Text } from '@wakandaswap-libs/uikit'
+import { Pair } from '@calculux-libs/sdk'
+import { Button, CardBody, Text } from '@calculux-libs/uikit'
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
@@ -60,7 +60,7 @@ export default function Pool() {
     <>
       <CardNav activeIndex={1} />
       <AppBody>
-        <PageHeader title="Liquidity" description="Add liquidity to receive WAKANDA-LP tokens">
+        <PageHeader title="Liquidity" description="Add liquidity to receive CAX-LP tokens">
           <Button id="join-pool-button" as={Link} to="/add/ETH">
             <TranslatedText translationId={100}>Add Liquidity</TranslatedText>
           </Button>
@@ -114,7 +114,7 @@ export default function Pool() {
                   </StyledInternalLink>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
-                  Or, if you staked your WAKANDA-LP tokens in a farm, unstake them to see them here.
+                  Or, if you staked your CAX-LP tokens in a farm, unstake them to see them here.
                 </Text>
               </div>
             </AutoColumn>

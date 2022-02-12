@@ -1,7 +1,7 @@
-import { CurrencyAmount, JSBI, Token, Trade } from '@wakandaswap-libs/sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from '@calculux-libs/sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { ArrowDown } from 'react-feather'
-import { CardBody, ArrowDownIcon, Button, IconButton, Text } from '@wakandaswap-libs/uikit'
+import { CardBody, ArrowDownIcon, Button, IconButton, Text } from '@calculux-libs/uikit'
 import { ThemeContext } from 'styled-components'
 import AddressInputPanel from 'components/AddressInputPanel'
 import Card, { GreyCard } from 'components/Card'
@@ -19,7 +19,7 @@ import SyrupWarningModal from 'components/SyrupWarningModal'
 import ProgressSteps from 'components/ProgressSteps'
 
 import { INITIAL_ALLOWED_SLIPPAGE } from 'constants/index'
-import PANCAKESWAP_DEFAULT_TOKEN_LIST from 'constants/token/wakandaswap.json'
+import PANCAKESWAP_DEFAULT_TOKEN_LIST from 'constants/token/calculuxswap.json'
 import { useActiveWeb3React } from 'hooks'
 import { useCurrency } from 'hooks/Tokens'
 import { ApprovalState, useApproveCallbackFromTrade } from 'hooks/useApproveCallback'
@@ -54,20 +54,17 @@ const Swap = () => {
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
-  
-  const tokenWhitelisted: boolean = useMemo(
-    () => {
-      const tokenAddress = loadedUrlParams?.outputCurrencyId?.toLowerCase()
-      if (!tokenAddress) return false
 
-      const foundToken = PANCAKESWAP_DEFAULT_TOKEN_LIST.tokens.find(t => t.address.toLowerCase() === tokenAddress)
-      if (!foundToken) return false
+  const tokenWhitelisted: boolean = useMemo(() => {
+    const tokenAddress = loadedUrlParams?.outputCurrencyId?.toLowerCase()
+    if (!tokenAddress) return false
 
-      return true
-    },
-    [loadedUrlParams]
-  )
-  
+    const foundToken = PANCAKESWAP_DEFAULT_TOKEN_LIST.tokens.find((t) => t.address.toLowerCase() === tokenAddress)
+    if (!foundToken) return false
+
+    return true
+  }, [loadedUrlParams])
+
   const handleConfirmTokenWarning = useCallback(() => {
     setDismissTokenWarning(true)
   }, [])

@@ -1,4 +1,4 @@
-import { Currency } from '@wakandaswap-libs/sdk'
+import { Currency } from '@calculux-libs/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import useLast from '../../hooks/useLast'
 import { useSelectedListUrl } from '../../state/lists/hooks'
