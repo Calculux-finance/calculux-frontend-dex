@@ -1,4 +1,4 @@
-import { ChainId } from '@calculux-libs/sdk'
+import { ChainId } from '@wakandaswap-libs/sdk'
 import { createStore, Store } from 'redux'
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'
 import reducer, { initialState, TransactionState } from './reducer'

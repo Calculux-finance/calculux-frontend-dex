@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from '@calculux-libs/sdk'
+import { Currency, Pair } from '@wakandaswap-libs/sdk'
 import { Button, ChevronDownIcon, Text } from '@calculux-libs/uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'

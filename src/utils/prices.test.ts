@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@calculux-libs/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@wakandaswap-libs/sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

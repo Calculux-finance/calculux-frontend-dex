@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@calculux-libs/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@wakandaswap-libs/sdk'
 import { MIN_ETH } from '../constants'
 
 /**

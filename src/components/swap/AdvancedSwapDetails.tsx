@@ -1,5 +1,5 @@
 import React from 'react'
-import { Trade, TradeType } from '@calculux-libs/sdk'
+import { Trade, TradeType } from '@wakandaswap-libs/sdk'
 import { Card, CardBody, Text } from '@calculux-libs/uikit'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'

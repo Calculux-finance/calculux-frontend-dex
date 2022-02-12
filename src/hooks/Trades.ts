@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@calculux-libs/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@wakandaswap-libs/sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

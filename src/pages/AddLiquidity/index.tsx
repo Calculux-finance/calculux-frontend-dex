@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, TokenAmount, WETH } from '@calculux-libs/sdk'
+import { Currency, currencyEquals, ETHER, TokenAmount, WETH } from '@wakandaswap-libs/sdk'
 import { Button, CardBody, AddIcon, Text as UIKitText } from '@calculux-libs/uikit'
 import { RouteComponentProps } from 'react-router-dom'
 import { LightCard } from 'components/Card'

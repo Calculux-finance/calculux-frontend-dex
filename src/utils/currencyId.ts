@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@calculux-libs/sdk'
+import { Currency, ETHER, Token } from '@wakandaswap-libs/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

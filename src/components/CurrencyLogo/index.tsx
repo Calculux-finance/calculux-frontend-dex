@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@calculux-libs/sdk'
+import { Currency, ETHER, Token } from '@wakandaswap-libs/sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 import useHttpLocations from '../../hooks/useHttpLocations'

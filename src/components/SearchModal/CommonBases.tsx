@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@calculux-libs/uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@calculux-libs/sdk'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@wakandaswap-libs/sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'

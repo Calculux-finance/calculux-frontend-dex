@@ -1,4 +1,4 @@
-import { ChainId } from '@calculux-libs/sdk'
+import { ChainId } from '@wakandaswap-libs/sdk'
 import { FortmaticConnector as FortmaticConnectorCore } from '@web3-react/fortmatic-connector'
 
 export const OVERLAY_READY = 'OVERLAY_READY'

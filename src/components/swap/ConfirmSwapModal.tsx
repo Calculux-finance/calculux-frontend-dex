@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@calculux-libs/sdk'
+import { currencyEquals, Trade } from '@wakandaswap-libs/sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

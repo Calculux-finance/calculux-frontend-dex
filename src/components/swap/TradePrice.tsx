@@ -1,5 +1,5 @@
 import React from 'react'
-import { Price } from '@calculux-libs/sdk'
+import { Price } from '@wakandaswap-libs/sdk'
 import { SyncAltIcon, Text } from '@calculux-libs/uikit'
 import { StyledBalanceMaxMini } from './styleds'
 

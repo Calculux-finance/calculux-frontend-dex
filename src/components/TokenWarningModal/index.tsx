@@ -1,4 +1,4 @@
-import { Token } from '@calculux-libs/sdk'
+import { Token } from '@wakandaswap-libs/sdk'
 import { transparentize } from 'polished'
 import { Button, Text } from '@calculux-libs/uikit'
 import React, { useCallback, useMemo, useState } from 'react'

@@ -1,4 +1,4 @@
-import { Currency } from '@calculux-libs/sdk'
+import { Currency } from '@wakandaswap-libs/sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

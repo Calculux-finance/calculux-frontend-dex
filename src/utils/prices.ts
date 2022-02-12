@@ -1,4 +1,4 @@
-import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@calculux-libs/sdk'
+import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@wakandaswap-libs/sdk'
 import {
   BLOCKED_PRICE_IMPACT_NON_EXPERT,
   ALLOWED_PRICE_IMPACT_HIGH,

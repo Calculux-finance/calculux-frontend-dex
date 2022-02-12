@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@calculux-libs/sdk'
+import { Trade, TradeType } from '@wakandaswap-libs/sdk'
 import React, { useMemo, useState } from 'react'
 import { Text, Button } from '@calculux-libs/uikit'
 import { Repeat } from 'react-feather'

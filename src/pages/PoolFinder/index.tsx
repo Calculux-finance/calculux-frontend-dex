@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@calculux-libs/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@wakandaswap-libs/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@calculux-libs/uikit'
 import CardNav from 'components/CardNav'

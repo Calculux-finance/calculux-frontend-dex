@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@calculux-libs/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@wakandaswap-libs/sdk'
 import React from 'react'
 import { Button } from '@calculux-libs/uikit'
 import { RowBetween, RowFixed } from '../../components/Row'

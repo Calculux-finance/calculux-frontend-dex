@@ -1,4 +1,4 @@
-import { ChainId } from '@calculux-libs/sdk'
+import { ChainId } from '@wakandaswap-libs/sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Button, LinkExternal } from '@calculux-libs/uikit'
