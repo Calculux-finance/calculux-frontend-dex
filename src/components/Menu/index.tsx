@@ -44,7 +44,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink="https://www.coingecko.com/en/coins/calculux-finance"
+      cakePriceLink="#"
       /* profile={profile} */
       {...props}
     />
