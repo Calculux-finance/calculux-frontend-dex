@@ -86,11 +86,16 @@ const config: MenuEntry[] = [
     ],
   },
   // {
-  //   label: 'Partnerships/IWO',
+  //   label: 'Partnerships/IDO',
   //   icon: 'IfoIcon',
   //   href:
   //     'https://google.com',
   // },
+  {
+    label: 'Audit by Coinscope',
+    icon: 'ShieldIcon',
+    href: 'https://www.coinscope.co/coin/cax/audit',
+  },
   {
     label: 'Audit by CertiK',
     icon: 'ShieldIcon',
